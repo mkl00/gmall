@@ -9,4 +9,6 @@ public interface VisitRealtimeService {
     Map<String, Object> queryDau(String td);
 
     List<ValueName> searchStatsByItem(String itemName, String date, String t);
+
+    Map<String, Object> detailByItem(String date, String itemName, Integer pageNo, Integer pageSize);
 }

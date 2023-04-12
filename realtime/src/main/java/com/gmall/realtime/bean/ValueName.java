@@ -8,6 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class ValueName {
-    private Integer value;
+    private double value;
     private String name;
 }
